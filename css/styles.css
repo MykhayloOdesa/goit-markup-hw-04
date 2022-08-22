@@ -69,6 +69,7 @@ ul {
 .header-list {
   display: flex;
   margin-left: auto;
+  align-items: center;
 
   list-style: none;
   padding: 0;
@@ -96,8 +97,17 @@ ul {
   margin-right: 0;
 }
 
+.icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .header .list-item {
   margin-right: 50px;
+}
+
+.header-list > .list-item {
+  margin-right: 30px;
 }
 
 .header .list-item:last-child {
@@ -220,6 +230,20 @@ ul {
 
 .spec > .list-item {
   width: 270px;
+}
+
+.icon-spec {
+  display: flex;
+  margin-bottom: 30px;
+  height: 120px;
+
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+}
+
+.icon-fixed {
+  display: block;
+  margin: auto;
 }
 
 img {
