@@ -1,6 +1,7 @@
 :root {
   --primary-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
+  --hero-bg-color: rgba(47, 48, 58, 0.4);
   --active-btn-color: #188ce8;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -155,8 +156,20 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
 
+  width: 1600px;
+  height: 600px;
+
+  margin-left: auto;
+  margin-right: auto;
+
   background-color: var(--primary-background-color);
   text-align: center;
+
+  background-image: linear-gradient(to right, var(--hero-bg-color), var(--hero-bg-color)),
+    url(../images/index/hero/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-title {
@@ -190,6 +203,19 @@ ul {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--active-btn-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .spec > .list-item {
