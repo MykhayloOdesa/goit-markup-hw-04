@@ -236,16 +236,12 @@ ul {
 }
 
 .icon-spec {
-  display: flex;
   margin-bottom: 30px;
+  padding: 25px 100px;
   height: 120px;
 
   background-color: var(--secondary-background-color);
   border-radius: 4px;
-}
-
-.icon-fixed {
-  margin: auto;
 }
 
 img {
