@@ -136,6 +136,7 @@ ul {
 
 .header .link {
   display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -298,6 +299,8 @@ img {
 .container-team {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 
   background-color: var(--brand-white-color);
 }
@@ -326,11 +329,6 @@ img {
   color: var(--secondary-text-color);
   line-height: 1.19;
   text-align: center;
-}
-
-.team-social {
-  margin-left: 32px;
-  margin-right: 32px;
 }
 
 .social-link {
